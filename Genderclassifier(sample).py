@@ -13,5 +13,6 @@ clf = clf.fit(X,Y)
 
 prediction = clf.predict([[178,78]])
 
+print("The gender is supposed to be : "),
 print (prediction)
 
